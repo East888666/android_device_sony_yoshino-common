@@ -24,9 +24,3 @@ cc_library_shared {
     product_specific: true,
 }
 
-cc_library_shared {
-    name: "libui_shim",
-    shared_libs: ["libui"],
-    srcs: ["GraphicBuffer.cpp"],
-    product_specific: true,
-}
